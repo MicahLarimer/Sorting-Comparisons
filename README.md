@@ -1,38 +1,23 @@
-Sorting Algorithms Analysis
-Overview
-A C++ project implementing and analyzing sorting algorithms (Bubble, Merge, Quick, and Heap Sort) to optimize performance for large datasets. Includes debugging enhancements to track swap counts and performance metrics, with applications to construction task scheduling. Inspired by Hyphen Solutions' BuildPro for efficient workflow management.
-Features
+# Sorting Algorithm Comparison
 
-Algorithm Implementation: Developed Bubble, Merge, Quick, and Heap Sort, optimized for 1000+ inputs.
-Performance Analysis: Measured runtime and swap counts for sorted and unsorted data, comparing algorithm efficiency.
-Debugging: Fixed zero-swap issue for sorted inputs, ensuring accurate metrics with debug outputs.
-Task Scheduling Application: Applied sorting to prioritize construction tasks, achieving O(n log n) efficiency.
+A C++ program to compare the performance of six sorting algorithms (Bubble, Selection, Insertion, Merge, Quick, Heap) on datasets of 100 and 999 random integers, tracking swap counts.
 
-Technologies
+## Features
+- Implements template-based sorting algorithms.
+- Reads input from files (`input100.txt`, `input1000.txt`).
+- Outputs original/sorted arrays and swap counts.
+- Analyzes algorithm efficiency for optimization insights.
 
-C++: Core implementation using STL for data structures and algorithms.
-Data Structures: Arrays and heaps for sorting operations.
-Tools: G++ compiler, Visual Studio Code, Git.
+## Installation
+1. Clone the repository: `git clone https://github.com/MicahLarimer/Sorting-Comparison.git`
+2. Compile with C++11: `g++ -std=c++11 main.cpp -o sorting_comparison`
+3. Run: `./sorting_comparison` (Windows: `sorting_comparison.exe`)
 
-Installation
+## Usage
+Run: `./sorting_comparison`
+Outputs sorting results for `input100.txt` and `input1000.txt`.
 
-Clone the repository:git clone https://github.com/MicahLarimer/Sorting-Algorithms.git
-
-
-Navigate to the project directory:cd Sorting-Algorithms
-
-
-Ensure a C++ compiler (e.g., g++) is installed.
-
-Usage
-
-Compile the code:g++ sorting_algorithms.cpp -o sorting
-
-
-Run the program:./sorting
-
-
-Follow prompts to select an algorithm and input size, or modify sorting_algorithms.cpp for custom tests.
+## Example Output
 
 Example Output
 Running Quick Sort on 1000 elements:
